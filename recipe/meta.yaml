@@ -1,5 +1,5 @@
 {% set name = "ads-async" %}
-{% set version = "0.0.2" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: deb931c6223def3ddda1b5859bf8f8566b235046e83a27d3ea4f4cd50f89b1b6
+  sha256: 0abf1cce1ec89d3cab9ab9ca48a0dac0f997d7b73832fc33f5d839f0899f35b5
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: LicenseRef-BSD-3-Clause-SLAC
   license_family: BSD
   license_file: LICENSE
-  summary: 'Sans-I/O and asyncio TwinCAT3 ADS testing server in pure Python.'
+  summary: Sans-I/O and asyncio TwinCAT3 ADS testing server in pure Python.
 
 extra:
   recipe-maintainers:
