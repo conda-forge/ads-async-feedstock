@@ -1,11 +1,11 @@
-About ads-async
-===============
+About ads-async-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ads-async-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pcdshub/ads-async
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ads-async-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sans-I/O and asyncio TwinCAT3 ADS testing server in pure Python.
 
