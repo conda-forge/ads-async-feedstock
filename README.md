@@ -1,13 +1,13 @@
-About ads-async
-===============
+About ads-async-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ads-async-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pcdshub/ads-async
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ads-async-feedstock/blob/main/LICENSE.txt)
-
-Summary: Sans-I/O and asyncio TwinCAT3 ADS testing server in pure Python.
+Summary: Sans-I/O and asyncio TwinCAT3 ADS server/client in pure Python.
 
 Development: https://github.com/pcdshub/ads-async
 
@@ -147,7 +147,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/pcdsdevices](https://github.com/conda-forge/pcdsdevices/)
 * [@klauer](https://github.com/klauer/)
+* [@tangkong](https://github.com/tangkong/)
 * [@zllentz](https://github.com/zllentz/)
-* [@zrylettc](https://github.com/zrylettc/)
 
