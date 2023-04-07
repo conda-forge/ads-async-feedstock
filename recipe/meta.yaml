@@ -15,11 +15,12 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  host:
-    - python >=3.6
-    - pip
+  build:
+  - python >=3.9
+  - setuptools_scm
+  - pip
   run:
-    - python >=3.6
+  - python >=3.9
 
 test:
   imports:
@@ -32,10 +33,10 @@ about:
   license: LicenseRef-BSD-3-Clause-SLAC
   license_family: BSD
   license_file: LICENSE
-  summary: Sans-I/O and asyncio TwinCAT3 ADS testing server in pure Python.
+  summary: Sans-I/O and asyncio TwinCAT3 ADS server/client in pure Python.
 
 extra:
   recipe-maintainers:
     - klauer
+    - tangkong
     - zllentz
-    - zrylettc
