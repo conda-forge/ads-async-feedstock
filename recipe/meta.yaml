@@ -1,5 +1,5 @@
 {% set name = "ads-async" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 906bcdb7090c135e515ec274c81ab6143b8cc99e5235a6518aaa8812f5142b51
+  sha256: ed2035fe2f3912fab39db8c4bd5b9455d21841c7e1f33346c7b05dec4a7498eb
 
 build:
   noarch: python
