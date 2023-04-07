@@ -7,7 +7,7 @@ Home: https://github.com/pcdshub/ads-async
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
 
-Summary: Sans-I/O and asyncio TwinCAT3 ADS testing server in pure Python.
+Summary: Sans-I/O and asyncio TwinCAT3 ADS server/client in pure Python.
 
 Development: https://github.com/pcdshub/ads-async
 
@@ -148,6 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@klauer](https://github.com/klauer/)
+* [@tangkong](https://github.com/tangkong/)
 * [@zllentz](https://github.com/zllentz/)
-* [@zrylettc](https://github.com/zrylettc/)
 
