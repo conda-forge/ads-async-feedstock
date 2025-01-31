@@ -7,22 +7,25 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: ed2035fe2f3912fab39db8c4bd5b9455d21841c7e1f33346c7b05dec4a7498eb
+  sha256: 7cf28dcb532169d433bf3db5da822b371951e366745033114b7eec861663a3e0
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-  - python >=3.9
-  - setuptools_scm
-  - pip
+    - python {{ python_min }}
+    - setuptools
+    - setuptools_scm
+    - pip
   run:
-  - python >=3.9
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - ads_async
 
@@ -38,6 +41,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/pcdsdevices
-    - klauer
-    - tangkong
-    - zllentz
